@@ -41,7 +41,7 @@ int main(){
 	printf("Enter n, b and d with commas between them: and terminate with a '.': ");
 	scanf("%d,%d,%d.", &n,&b,&d);
 	printf("n: %d | b: %d | d: %d\n", n,b,d); //*****
-	printf("Enter orange sizes. Seperate with a comma, don't put a '.':\n");
+	printf("Enter orange sizes (Must be less than 10). Seperate with a comma, don't put a '.':\n");
 	splitter(n);
 	
 	return 0;
