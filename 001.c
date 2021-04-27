@@ -10,15 +10,15 @@ void splitter(){
 
 int main(){
 
-	int n, b, d, sum, cl;
-	printf("Enter n, b, and d with commas between them: and terminate with a '.': ");
-	scanf("%d,%d,%d.", &n,&b,&d);
-	int ln1[]={n,b,d};
+	int b, d, sum, cl;
+	printf("Enter b and d with commas between them: and terminate with a '.': ");
+	scanf("%d,%d.", &b,&d);
+	int ln1[]={b,d};
 	printf("Enter orange sizes (number must equal n. Seperate with awith a comma:");
-	char ln2[2*n+1];
+	char ln2[100];
 	scanf("%s", ln2);
-	printf("%d,%d,%d.\n\n", ln1[0],ln1[1],ln1[2]);
-	printf("%s\n", ln2);
+	printf("b: %d | d:%d\n", ln1[0],ln1[1]);
+	printf("%s \n", ln2);
 
 
 }
